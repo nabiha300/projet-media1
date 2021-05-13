@@ -1,0 +1,37 @@
+#bien{color: blue;}
+body{background-image: url(horloge.jpg) ;} 
+
+#infoPratique {border:solid 10px black; 
+    margin:50px; padding:30px; background-color:lightgrey;}
+
+
+#inscript{border:solid 10px black; padding:30px;
+  background-color:yellow;}
+#pret{ border:solid 10px black; margin:50px;
+  background-color:green;}
+ section{ font-family:Arial ;background-color:rgb(255,229,155) }
+  #formulaire{ 
+      position :relative;
+      margin:auto;
+      width:300px;
+  }
+  #Lbsaisie{
+      display : inline-block;
+      width:140px;
+      line-height :30px;
+  }
+.bouton { width : 360px;}
+  body{ font-size:100 % }
+  /* modifications si smartphone*/
+  @media screen  and (max-width:980px),handheld and (max-width:980px) {body{ 
+      font-size:130%;
+      background-color:#d3d3d3;
+  }
+    .affichage{
+        display: none;
+    }  
+  }
+.entoureImg { float : right;  }
+        #fondPestin { 
+            background-image: url('flower.jpg'); 
+            color: yellow; /*couleur du texte / font-size: 22px; /*taille du texte */ font-style: oblique; /*texte oblique*/ text-align: left; /*gauche (par défaut)*/ font-weight: bold; }/ gras */
